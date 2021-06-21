@@ -96,14 +96,11 @@ public class Section {
 
     public static class Builder {
 
-        public Long id;
+        private Long id;
         private Long lineId;
         private Long upStationId;
         private Long downStationId;
         private int distance;
-
-        private Builder() {
-        }
 
         public Builder id(final Long id) {
             this.id = id;
